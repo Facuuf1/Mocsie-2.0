@@ -1,0 +1,35 @@
+.main-nos{
+    display: flex;
+    justify-content: center;
+    margin: 7rem;
+    flex-wrap: wrap;
+    
+    h2{
+        margin-bottom: 4rem;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 3rem;
+        font-size: 2rem;
+    }
+    div{
+        p{
+            margin: 2rem;
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 4rem;
+        }
+    }
+    .ig-nos{
+        a{
+            text-decoration: none;
+            color: #CBAC88;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 4rem;
+            i{
+                margin: 0.5rem;
+            
+            }
+        }
+
+    }
+}

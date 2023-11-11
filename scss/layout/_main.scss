@@ -1,0 +1,132 @@
+main{
+    div{
+        .cat-1{
+            margin-top: 8rem;
+            flex-wrap: wrap;
+
+            h2{
+                font-size: 2rem;
+                margin-left: 1.7rem;
+                font-family: 'Cormorant Garamond', serif;
+            }
+
+            div{
+                flex-wrap: wrap;
+                display: flex;
+                justify-content:space-around;
+                margin-left: 3rem;
+                margin-right: 3rem;
+                margin-top: 3rem;
+
+                
+                img{
+                    flex-wrap:wrap ;
+                    margin: 2rem;
+                    width: 15rem;
+                    background-color:beige;
+                    padding: 0.2rem;
+                    padding-bottom: 4rem;
+                    border: solid gray 0.1rem;
+                    transition: 1s;
+                    cursor: pointer;
+                }
+                
+                .cat-img-1{
+                    img{
+                        transition: 1s;
+                        &:hover{
+                            margin:1rem;
+                        }
+                        
+                    }
+                    
+                }
+                .cat-img-2{
+                    
+                    img{
+                        transition: 1s;
+                        &:hover{
+                            margin:1rem;
+                        }
+                    }
+                    
+                }
+                .cat-img-3{
+                    img{
+                        transition: 1s;
+                        &:hover{
+                            margin:1rem;
+                        }
+                    }
+                    
+                }
+                .cat-img-4{
+                    img{
+                        transition: 1s;
+                        &:hover{
+                            margin:1rem;
+                        }
+                    }
+                   
+                }
+
+                
+
+
+            }
+
+        }
+
+        .div-follows{
+            margin: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 2.5rem;
+            }
+            
+            
+        }
+
+        .produ-1{
+            flex-wrap: wrap;
+            margin-bottom: 18rem;
+            h2{
+                font-family: 'Cormorant Garamond', serif;
+                margin-left: 1.7rem;
+                font-size: 2rem;
+            }
+
+            div{
+                margin-top: 5rem;
+                display: grid;
+                justify-content: center;
+                gap: 4rem;
+                grid-template-columns: repeat(4, 15rem);
+                grid-template-rows: repeat(2, 15rem);
+
+                img{
+                    flex-wrap: wrap;
+                    width: 15rem;
+                    padding: 0.2rem;
+                    background-color: beige;
+                    padding-bottom: 6rem;
+                    border: solid gray 0.1rem;
+                }
+            }
+        }
+        .wpp {
+            width: 2rem;
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            
+        
+        }
+
+    }
+
+}

@@ -1,0 +1,61 @@
+.main-prod{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 7rem;
+    flex-direction: column;
+    .ti-pro{
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cormorant Garamond', serif;
+        }
+    }
+    .button-fil{
+        margin-top: 4rem;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: end;
+        
+    }
+    .produ-2{
+        flex-wrap: wrap;
+        margin-top: 7rem;
+        display: grid;
+        gap: 4rem;
+        grid-template-columns: repeat(4 , 15rem);
+        grid-template-rows: repeat(3 , 25rem);
+        justify-content: center;
+        a{
+            img{
+                flex-wrap: wrap;
+                width: 15rem;
+                background-color: beige;
+                padding: 0.1rem;
+                padding-bottom: 6rem;
+                border: solid gray 0.1rem;
+            }
+        }
+        
+        
+    }
+    .butt-pro-env{
+        display: flex;
+        margin: 7rem;
+        justify-content: center;
+        form{
+            input{
+                padding: 0.5rem 3rem;
+                border-radius: 3rem;
+                background-color: #CBAC88;
+                transition: 1s;
+                &:hover{
+                    margin: 0.4rem;
+                    background-color: beige;
+                }
+            }
+        }
+        
+    }
+
+}

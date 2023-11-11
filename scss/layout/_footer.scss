@@ -1,0 +1,41 @@
+footer{
+
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: antiquewhite;
+        
+        .menu{
+            margin-top: 1rem;
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: brown;
+                    }
+                }
+            }
+        }
+        div{
+            .logo-1{
+                width: 4rem;
+                border-radius: 3rem;
+                position: relative;
+                right: 2rem;
+            }
+        }
+        .ico-foo{
+            padding: 0.7rem;
+            a{
+                padding: 0.3rem;
+            }
+        } 
+    }
+
+
+
+
+}

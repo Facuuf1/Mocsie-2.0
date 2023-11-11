@@ -1,0 +1,21 @@
+.main-pre{
+    margin: 3rem;
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        margin-bottom: 6rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    div{
+        h3{
+            font-family: 'Cormorant Garamond', serif;
+            margin-bottom: 1.6rem;
+        }
+        p{
+            margin-bottom: 3rem;
+            text-align: start;
+            font-family: 'Cormorant Garamond', serif;
+        }
+    }
+}
